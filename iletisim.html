@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Türkiye'nin Güzide Mutfağı</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png">
+</head>
+<body>
+
+    <!-- Header / Menü -->
+    <header>
+        <h1>Türkiye'nin Güzide Yemekleri</h1>
+        <nav>
+            <a href="index.html">Anasayfa</a>
+            <a href="urunler.html">Ürünler</a>
+            <a href="iletisim.html">İletişim</a>
+            <a href="hakkimizda.html">Hakkımızda</a>
+        </nav>
+    </header>
+
+    <!-- İletişim Ana Alanı -->
+    <main class="contact-container">
+        <h2>Bizimle İletişime Geçin</h2>
+        <p>Görüş, öneri ve sipariş sorularınız için bize ulaşabilirsiniz.</p>
+
+        <div class="contact-content">
+            <!-- İletişim Bilgileri -->
+            <div class="contact-info">
+                <h3>İletişim Bilgileri</h3>
+                <p><strong>Adres:</strong> Lezzet Caddesi No:123, Kadıköy / İstanbul</p>
+                <p><strong>Telefon:</strong> +90 (212) 555 01 23</p>
+                <p><strong>E-posta:</strong> info@turkiyemutfagi.com</p>
+                <p><strong>Çalışma Saatleri:</strong> Haftanın 7 Günü | 09:00 - 23:00</p>
+            </div>
+
+            <!-- İletişim Formu -->
+            <form class="contact-form">
+                <h3>Mesaj Gönderin</h3>
+                
+                <label for="name">Adınız Soyadınız:</label>
+                <input type="text" id="name" placeholder="Adınızı giriniz" required>
+
+                <label for="email">E-posta Adresiniz:</label>
+                <input type="email" id="email" placeholder="E-posta adresinizi giriniz" required>
+
+                <label for="subject">Konu:</label>
+                <input type="text" id="subject" placeholder="Mesaj konusu" required>
+
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" rows="5" placeholder="Mesajınızı buraya yazınız..." required></textarea>
+
+                <button type="submit" class="order-button">Gönder</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Türkiye'nin Güzide Mutfağı - Tüm Hakları Saklıdır.</p>
+    </footer>
+
+</body>
+</html>
