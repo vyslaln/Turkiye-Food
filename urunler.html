@@ -1,11 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tüm Ürünler - Türkiye'nin Güzide Mutfağı</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png">
 </head>
 <body>
+
+    <!--Genel olarak web sitesi hakkında bir başlık ve menü linkleri eklendi.-->
+    <header>
+        <h1>Türkiye'nin Güzide Yemekleri</h1>
+        <nav>
+            <a href="index.html">Anasayfa</a>
+            <a href="urunler.html">Ürünler</a>
+            <a href="iletisim.html">İletişim</a>
+            <a href="hakkimizda.html">Hakkımızda</a>
+        </nav>
+    </header>
+ 
+    <!--Web sitesine bir arama çubuğu eklendi.-->
+    <div class="search-bar">
+        <input type="text" placeholder="Yemek Ara...">
+        <button type="submit">Ara</button>
+    </div>
+
+    <!--Web sitesine bir hero (tanıtım alanı) eklendi.-->
+    <div class="hero">
+        <h2>Türkiye'nin Güzide Mutfağına Hoş Geldiniz!</h2>
+        <p><i>Lezzetli yemeklerimizi keşfedin ve sipariş verin.</i></p>
+        <a href="#" class="button">Yemekleri Keşfet!</a>
+    </div>
+
+    <!-- 1. Bölüm: Çorbalar -->
+    <section class="soups">
+        <h2> Çorbalar </h2>
+
+        <div class="menu-items">
+            <!--1. çorbamız -->
+            <div class="menu-item">
+                <h3> Mercimek Çorbası </h3>
+                <img src="images/mercimek-soup.jpg" alt="Mercimek Çorbası" width="300" height="200">
+                <p>
+                    Kırmızı mercimek, soğan, havuç ve baharatlarla yapılan, <br>
+                    Türk mutfağının en sevilen çorbalarından biridir.
+                </p>
+                <span><del>100 TL</del>&nbsp; 70 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div>
+
+            <!--2. çorbamız -->
+            <div class="menu-item">
+                <h3> Tarhana Çorbası </h3>
+                <img src="images/tarhana-soup.jpg" alt="Tarhana Çorbası" width="300" height="200">
+                <p>
+                    Tarhana, yoğurt, un ve çeşitli sebzelerin fermente edilmesiyle yapılan, <br>
+                    geleneksel bir Türk çorbasıdır.
+                </p>
+                <span><del>120 TL</del>&nbsp; 90 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div>
+
+            <!--3. çorbamız -->
+            <div class="menu-item">
+                <h3> Yayla Çorbası </h3>
+                <img src="images/yayla-sopu.jpg" alt="Yayla Çorbası" width="300" height="200">
+                <p>
+                    Yoğurt, pirinç ve nane ile yapılan hafif ve lezzetli bir Türk çorbasıdır. <br>
+                    Özellikle yaz aylarında tercih edilir.
+                </p>
+                <span><del>110 TL</del>&nbsp; 80 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div> 
+        </div>
+    </section>
+
+     <!-- 2. Bölüm: Ana Yemekler -->
+    <section class="main-foods">
+        <h2> Ana Yemekler </h2>
+
+        <div class="menu-items">
+            <!--1. yemeğimiz -->
+            <div class="menu-item">
+                <h3> İskender </h3>
+                <img src="images/iskender.jpg" alt="İskender" width="300" height="200">
+                <p>
+                    Yoğurt ve tereyağı ile servis edilen, <br>
+                    ince dilimlenmiş döner etinden yapılan geleneksel bir Türk yemeği.
+                </p>
+                <span><del>600 TL</del>&nbsp; 450 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div>
+
+            <!--2. yemeğimiz -->
+            <div class="menu-item">
+                <h3> Tavuklu Pilav </h3>
+                <img src="images/tavuklu-pilav.jpg" alt="Tavuklu Pilav" width="300" height="200">
+                <p>
+                    Haşlanmış tavuk etlerinin lezzetli pirinç pilavıyla buluştuğu, <br>
+                    Türk sokak lezzetlerinin ve ev mutfağının vazgeçilmez klasiklerinden biridir.
+                </p>
+                <span><del>300 TL</del>&nbsp; 150 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div>
+
+            <!--3. yemeğimiz -->
+            <div class="menu-item">
+                <h3> Adana Kebap </h3>
+                <img src="images/adana-kebap.jpg" alt="Adana Kebap" width="300" height="200">
+                <p>
+                    Zırhtan geçirilmiş kuzu eti ve kuyruk yağının acı pul biberle harmanlanıp, <br> 
+                    geniş şişlerde közde pişirilmesiyle yapılan tescilli bir Türk mutfağı lezzetidir.
+                </p>
+                <span><del>500 TL</del>&nbsp; 350 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div>
+
+            <!--4. yemeğimiz -->
+            <div class="menu-item">
+                <h3> Büryani </h3>
+                <img src="images/buryani.jpg" alt="Büryani" width="300" height="200">
+                <p>
+                    Oğlak veya kuzu etinin, <br>
+                    özel kapalı kuyularda odun ateşinin buharıyla saatlerce,
+                    ağır ağır pişirilmesiyle hazırlanan yöresel bir et yemeğidir.
+                </p>
+                <span><del>500 TL</del>&nbsp; 350 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div>
+
+            <!--5. yemeğimiz -->
+            <div class="menu-item">
+                <h3> İçli Köfte </h3>
+                <img src="images/icli-kofte.jpg" alt="İçli Köfte" width="300" height="200">
+                <p>
+                    Dış tabağında bulgur hamuru, içerisinde ise baharatlı kıyma ve ceviz içi barındıran, <br>
+                    haşlanarak ya da kızartılarak servis edilen geleneksel bir Türk lezzetidir.
+                </p>
+                <span><del>500 TL</del>&nbsp; 350 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div>
+
+            <!--6. yemeğimiz -->
+            <div class="menu-item">
+                <h3> Kayseri Yağlaması </h3>
+                <img src="images/kayseri-yaglama.jpg" alt="Kayseri Yağlaması" width="300" height="200">
+                <p>
+                    İncecik açılan kat kat şebit ekmeklerinin arasına <br>
+                    salçalı ve kıymalı sıcak harç dökülerek üst üste dizilen,
+                    üzerine sarımsaklı yoğurt dökülerek yenen Kayseri'ye özgü bir yemektir.
+                </p>
+                <span><del>500 TL</del>&nbsp; 350 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div>
+        </div>
+    </section>
+
+     <!-- 3. Bölüm: Türk Tatlıları -->
+    <section class="Tr-Desserts">
+        <h2> Türk Tatlıları </h2>
+
+        <div class="menu-items">
+            <!--1. tatlımız -->
+            <div class="menu-item">
+                <h3> Baklava </h3>
+                <img src="images/baklava.jpg" alt="Baklava" width="300" height="200">
+                <p>
+                    İncecik açılmış hamur katları arasına ceviz veya fıstık konularak yapılan, <br>
+                    şerbetle tatlandırılan geleneksel bir Türk tatlısıdır.
+                </p>
+                <span><del>200 TL</del>&nbsp; 150 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div>
+
+            <!--2. tatlımız -->
+            <div class="menu-item">
+                <h3> Künefe </h3>
+                <img src="images/künefe.jpg" alt="Künefe" width="300" height="200">
+                <p>
+                    Tel kadayıf ve tuzsuz peynir ile yapılan, üzerine şerbet dökülerek servis edilen, <br>
+                    Hatay ve Gaziantep yöresine ait geleneksel bir Türk tatlısıdır.
+                </p>
+                <span><del>250 TL</del>&nbsp; 200 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div>
+
+            <!--3. tatlımız -->
+            <div class="menu-item">
+                <h3> Sütlaç </h3>
+                <img src="images/sutlac.jpg" alt="Sütlaç" width="300" height="200">
+                <p>
+                    Pirinç, süt ve şeker ile yapılan, üzerine tarçın serpilerek servis edilen, <br>
+                    hafif ve lezzetli bir Türk tatlısıdır.
+                </p>
+                <span><del>150 TL</del>&nbsp; 100 TL</span>
+                <button type="button" class="order-button">Sipariş Ver</button>
+            </div>
+        </div>
+    </section>
+
+      <!-- 4. Bölüm: Footer (Alt Bilgi) -->
+    <footer>
+        <p>&copy; 2026 Türkiye'nin Güzide Mutfağı - Tüm Hakları Saklıdır.</p>
+    </footer>
     
 </body>
 </html>
