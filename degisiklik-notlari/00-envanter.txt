@@ -1,0 +1,29 @@
+TURKIYE-FOOD - BAŞLANGIÇ ENVANTERİ
+Kaynak: v1 etiketi (fc0cb27). Satır numaraları v1'e göredir.
+Biçim: [numara] [dosya:satır]  TÜR  açıklama  ->  düzeleceği faz
+Türler: ÖLÜ KOD / BOZUK / TEKRAR / ERİŞİLEBİLİRLİK / TUTARSIZLIK / EKSİK
+Düzelen satırın sonuna [DÜZELDİ - faz-X dosyası] eklenir.
+
+[E-01] index.html:21               ÖLÜ KOD          Silinmiş hakkimizda.html'e giden menü bağlantısı  ->  FAZ 2
+[E-02] urunler.html:19             ÖLÜ KOD          Silinmiş hakkimizda.html'e giden menü bağlantısı  ->  FAZ 2
+[E-03] iletisim.html:19            ÖLÜ KOD          Silinmiş hakkimizda.html'e giden menü bağlantısı  ->  FAZ 2
+[E-04] index.html:27               ERİŞİLEBİLİRLİK  Arama kutusunda label/aria-label yok, sadece placeholder var  ->  FAZ 4
+[E-05] urunler.html:25             ERİŞİLEBİLİRLİK  Arama kutusunda label/aria-label yok, sadece placeholder var  ->  FAZ 4
+[E-06] index.html:28               EKSİK            Ara butonu çalışmıyor (form ya da JS yok)  ->  FAZ 4
+[E-07] urunler.html:26             EKSİK            Ara butonu çalışmıyor (form ya da JS yok)  ->  FAZ 4
+[E-08] index.html:52-243           EKSİK            15 "Sipariş Ver" butonu çalışmıyor (JS yok)  ->  FAZ 5
+[E-09] urunler.html:50-198         EKSİK            12 "Sipariş Ver" butonu çalışmıyor (JS yok)  ->  FAZ 5
+[E-10] urunler.html:33             ÖLÜ KOD          "Yemekleri Keşfet!" href="#", zaten bulunulan Ürünler sayfasına yönlendirmeye çalışıyor  ->  FAZ 3
+[E-11] urunler.html:30-34          TEKRAR           index.html'deki hero neredeyse aynen kopyalanmış  ->  FAZ 3
+[E-12] index.html:39-79            TEKRAR           İndirimli bölümündeki 3 kart (İskender, Tavuklu Pilav, Adana) Ana Yemekler'de de elle yazılmış  ->  FAZ 3
+[E-13] urunler.html:37-201         TEKRAR           Çorbalar, Ana Yemekler ve Tatlılar bölümleri index.html:82-246'dan elle kopyalanmış  ->  FAZ 3
+[E-14] index.html:51-242           TUTARSIZLIK      15 kartın hepsinde eski fiyat üstü çizili, "İndirimli" bölümü diğerlerinden ayırt edilemiyor  ->  FAZ 3
+[E-15] urunler.html:49-197         TUTARSIZLIK      12 kartın hepsinde eski fiyat üstü çizili, bütün yemekler indirimde görünüyor  ->  FAZ 3
+[E-16] index.html:48-239           BOZUK            15 kart açıklamasında satır kırmak için br kullanılmış, dar ekranda metin bozuluyor  ->  FAZ 3
+[E-17] urunler.html:46-194         BOZUK            12 kart açıklamasında satır kırmak için br kullanılmış, dar ekranda metin bozuluyor  ->  FAZ 3
+[E-18] style.css (tüm dosya)       EKSİK            Hiç @media sorgusu yok, site telefona uyumlu değil  ->  FAZ 2
+[E-19] readme.md:3,11              TUTARSIZLIK      README "responsive" diyor ama kod responsive değil  ->  FAZ 13
+[E-20] style.css:139,233,247,261   TEKRAR           Bölüm başlığı (h2) stili 4 kez birebir kopyalanmış  ->  FAZ 1
+[E-21] style.css:255,261           TUTARSIZLIK      Tr-Desserts sınıfı büyük harfli ve ön ekli, diğerleriyle uyumsuz  ->  FAZ 1
+[E-22] index.html:206              TUTARSIZLIK      Tr-Desserts sınıfı büyük harfli ve ön ekli, diğerleriyle uyumsuz  ->  FAZ 2
+[E-23] urunler.html:161            TUTARSIZLIK      Tr-Desserts sınıfı büyük harfli ve ön ekli, diğerleriyle uyumsuz  ->  FAZ 3
